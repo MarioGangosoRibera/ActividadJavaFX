@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="36.0" layoutY="309.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Añadir persona" />
+      <Label layoutX="36.0" layoutY="97.0" prefHeight="17.0" prefWidth="44.0" text="Nombre" />
+      <Label layoutX="36.0" layoutY="161.0" text="Edad" />
+      <Label layoutX="36.0" layoutY="227.0" text="Nivel" />
+      <TextField layoutX="36.0" layoutY="125.0" />
+      <TextField layoutX="36.0" layoutY="188.0" />
+      <TextField layoutX="36.0" layoutY="254.0" />
+      <TableView fx:id="tblpersonas" layoutX="236.0" layoutY="83.0" prefHeight="251.0" prefWidth="333.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="96.0" text="Nombre" />
+          <TableColumn fx:id="colEdad" prefWidth="146.0" text="Edad" />
+            <TableColumn fx:id="colNivel" prefWidth="90.0" text="Nivel" />
+        </columns>
+      </TableView>
+      <Label layoutX="92.0" layoutY="5.0" text="Competición de padel" textFill="#5aabbf">
+         <font>
+            <Font name="System Bold Italic" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
