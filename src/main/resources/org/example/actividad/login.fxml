@@ -31,14 +31,14 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <Label layoutX="118.0" layoutY="230.0" prefHeight="25.0" prefWidth="43.0" text="Clave">
+            <Label layoutX="118.0" layoutY="230.0" prefHeight="25.0" prefWidth="85.0" text="Contraseña">
                <font>
                   <Font size="16.0" />
                </font>
             </Label>
-            <TextField layoutX="119.0" layoutY="200.0" prefHeight="25.0" prefWidth="167.0" />
-            <PasswordField layoutX="118.0" layoutY="255.0" prefHeight="25.0" prefWidth="167.0" />
-            <Button layoutX="160.0" layoutY="299.0" mnemonicParsing="false" style="-fx-cursor: hand; -fx-effect: blue;" text="Iniciar sesión" />
+            <TextField fx:id="txtUsuario" layoutX="119.0" layoutY="200.0" prefHeight="25.0" prefWidth="167.0" />
+            <PasswordField fx:id="txtClave" layoutX="118.0" layoutY="255.0" prefHeight="25.0" prefWidth="167.0" />
+            <Button fx:id="btnInicio" layoutX="160.0" layoutY="299.0" mnemonicParsing="false" style="-fx-cursor: hand; -fx-effect: blue;" text="Iniciar sesión" />
          </children>
       </Pane>
     </children>
